@@ -1,0 +1,29 @@
+{
+  "name": "lines-count",
+  "version": "1.0.3",
+  "description": "Calculate lines count in files in specified directories",
+  "main": "lib/index.js",
+  "types": "lib/lines-count.d.ts",
+  "bin": {
+    "lines-count": "bin/lines-count"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teniryte/lines-count.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/teniryte/lines-count/issues"
+  },
+  "homepage": "https://github.com/teniryte/lines-count#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "wrench": "^1.5.9"
+  }
+}
